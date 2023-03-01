@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Tipos de Dados JS </title>
+</head>
+<body>
+	<script>
+		// var num = window.prompt("Digite um número");
+		// var num2 = window.prompt("Digite outro número");
+		// console.log(typeof(num));
+		// num = parseInt(num); // converte para um número inteiro
+		// num2 = parseInt(num)
+		// var soma = num + num2; //para economizar linhas
+		// console.log(soma);
+		
+		console.log("Tipos inteiros e ponto flutuante são number no JS");
+
+		let valorInt = 0;
+		let valorFloat = 25.5;
+
+		console.log(typeof(valorInt));// tipos são number
+		console.log(typeof(valorFloat));// tipos são number
+
+		console.log(parseInt(27.3));
+
+		var stringNum = "15";
+		stringNum = parseInt(stringNum);
+		alert(stringNum +10);
+		console.log(typeof(stringNum));
+
+		console.log("Tipos de String");
+
+		var string1 = "";
+		console.log(typeof(string1));
+		var string2 = "13";
+		console.log(typeof(string2));
+		var string3 = "Lula";
+		var TamString3 = string3.length;
+		console.log(TamString3);
+		console.log(typeof(string3));
+
+		console.log("Tipo Boolean(lógico)")
+		var bool1 = true;
+		var bool2 = false;
+		console.log(typeof(bool1));
+		console.log("-----------------");
+		console.log(!!string1); // false
+		console.log(!!string2); // true 
+		console.log(!!valorInt); // 0 --> false 
+
+		var bol = 1;
+		console.log(Boolean(bol));
+
+	</script>
+</body>
+</html>
